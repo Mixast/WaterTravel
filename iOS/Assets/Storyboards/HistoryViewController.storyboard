@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--History View Controller-->
+        <scene sceneID="tM8-9B-9qZ">
+            <objects>
+                <viewController storyboardIdentifier="HistoryViewController" id="bzm-Yl-JNH" customClass="HistoryViewController" customModule="VideoReact" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BYo-4s-Vnb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="205-1l-ORF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="665"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XvD-jq-E2W">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VT2-eO-hwK">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                <color key="backgroundColor" red="0.2588235438" green="0.75686275960000005" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="8tN-PM-cK6"/>
+                                            <constraint firstAttribute="trailing" secondItem="VT2-eO-hwK" secondAttribute="trailing" id="Xrr-Bt-poU"/>
+                                            <constraint firstItem="VT2-eO-hwK" firstAttribute="top" secondItem="XvD-jq-E2W" secondAttribute="top" id="dLQ-8S-96o"/>
+                                            <constraint firstItem="VT2-eO-hwK" firstAttribute="leading" secondItem="XvD-jq-E2W" secondAttribute="leading" id="jr7-be-rKf"/>
+                                            <constraint firstAttribute="bottom" secondItem="VT2-eO-hwK" secondAttribute="bottom" constant="10" id="kxA-tK-W1z"/>
+                                        </constraints>
+                                    </view>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="120" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="X8J-fr-rxw">
+                                        <rect key="frame" x="0.0" y="60" width="375" height="605"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <sections/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="bzm-Yl-JNH" id="gaD-O5-4or"/>
+                                            <outlet property="delegate" destination="bzm-Yl-JNH" id="Nrr-Vg-FBO"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.54037618600000004" green="0.93709880109999999" blue="0.3994804924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="205-1l-ORF" firstAttribute="top" secondItem="smG-gb-16P" secondAttribute="top" id="6Ee-cw-eGD"/>
+                            <constraint firstItem="smG-gb-16P" firstAttribute="trailing" secondItem="205-1l-ORF" secondAttribute="trailing" id="6KJ-DM-NeO"/>
+                            <constraint firstItem="smG-gb-16P" firstAttribute="bottom" secondItem="205-1l-ORF" secondAttribute="bottom" constant="2" id="F5g-IO-Va8"/>
+                            <constraint firstItem="205-1l-ORF" firstAttribute="leading" secondItem="smG-gb-16P" secondAttribute="leading" id="GCP-iO-2sB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="smG-gb-16P"/>
+                    </view>
+                    <connections>
+                        <outlet property="messageView" destination="XvD-jq-E2W" id="yya-16-vKt"/>
+                        <outlet property="tableView" destination="X8J-fr-rxw" id="6LC-Il-hCB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aM4-xM-cl8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="112.89355322338831"/>
+        </scene>
+    </scenes>
+</document>

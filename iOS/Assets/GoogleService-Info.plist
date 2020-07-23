@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>465644462236-9nivo6k136pf71huko550k67rscvr4qe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.465644462236-9nivo6k136pf71huko550k67rscvr4qe</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBXddD3iwGKwCH3pzRP_lNdsoQayRjViUg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>465644462236</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>https---github.com-Mixast-LexLuthor.git.VideoReact</string>
+	<key>PROJECT_ID</key>
+	<string>water-travel</string>
+	<key>STORAGE_BUCKET</key>
+	<string>water-travel.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:465644462236:ios:8e48eb2977477004700d59</string>
+	<key>DATABASE_URL</key>
+	<string>https://water-travel.firebaseio.com</string>
+</dict>
+</plist>
