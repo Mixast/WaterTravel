@@ -30,6 +30,7 @@ class CustomAlertController: UIViewController {
         self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.tableFooterView = UIView()
         self.tableView.tintColor = .red
+        self.tableView.backgroundColor = .white
         self.tableView.register(UINib.init(nibName: "AlertViewCell", bundle: nil), forCellReuseIdentifier: "AlertViewCell")
     }
     

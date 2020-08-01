@@ -150,10 +150,36 @@ struct R: Rswift.Validatable {
   }
   #endif
 
-  /// This `R.file` struct is generated, and contains static references to 1 files.
+  /// This `R.file` struct is generated, and contains static references to 14 files.
   struct file {
     /// Resource file `GoogleService-Info.plist`.
     static let googleServiceInfoPlist = Rswift.FileResource(bundle: R.hostingBundle, name: "GoogleService-Info", pathExtension: "plist")
+    /// Resource file `Э- 1024.png`.
+    static let э1024Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 1024", pathExtension: "png")
+    /// Resource file `Э- 120.png`.
+    static let э120Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 120", pathExtension: "png")
+    /// Resource file `Э- 152.png`.
+    static let э152Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 152", pathExtension: "png")
+    /// Resource file `Э- 167.png`.
+    static let э167Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 167", pathExtension: "png")
+    /// Resource file `Э- 180.png`.
+    static let э180Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 180", pathExtension: "png")
+    /// Resource file `Э- 20.png`.
+    static let э20Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 20", pathExtension: "png")
+    /// Resource file `Э- 29.png`.
+    static let э29Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 29", pathExtension: "png")
+    /// Resource file `Э- 40.png`.
+    static let э40Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 40", pathExtension: "png")
+    /// Resource file `Э- 58.png`.
+    static let э58Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 58", pathExtension: "png")
+    /// Resource file `Э- 60.png`.
+    static let э60Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 60", pathExtension: "png")
+    /// Resource file `Э- 76.png`.
+    static let э76Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 76", pathExtension: "png")
+    /// Resource file `Э- 80.png`.
+    static let э80Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 80", pathExtension: "png")
+    /// Resource file `Э- 87.png`.
+    static let э87Png = Rswift.FileResource(bundle: R.hostingBundle, name: "Э- 87", pathExtension: "png")
 
     /// `bundle.url(forResource: "GoogleService-Info", withExtension: "plist")`
     static func googleServiceInfoPlist(_: Void = ()) -> Foundation.URL? {
@@ -161,10 +187,88 @@ struct R: Rswift.Validatable {
       return fileResource.bundle.url(forResource: fileResource)
     }
 
+    /// `bundle.url(forResource: "Э- 1024", withExtension: "png")`
+    static func э1024Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э1024Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 120", withExtension: "png")`
+    static func э120Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э120Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 152", withExtension: "png")`
+    static func э152Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э152Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 167", withExtension: "png")`
+    static func э167Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э167Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 180", withExtension: "png")`
+    static func э180Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э180Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 20", withExtension: "png")`
+    static func э20Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э20Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 29", withExtension: "png")`
+    static func э29Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э29Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 40", withExtension: "png")`
+    static func э40Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э40Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 58", withExtension: "png")`
+    static func э58Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э58Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 60", withExtension: "png")`
+    static func э60Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э60Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 76", withExtension: "png")`
+    static func э76Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э76Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 80", withExtension: "png")`
+    static func э80Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э80Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
+    /// `bundle.url(forResource: "Э- 87", withExtension: "png")`
+    static func э87Png(_: Void = ()) -> Foundation.URL? {
+      let fileResource = R.file.э87Png
+      return fileResource.bundle.url(forResource: fileResource)
+    }
+
     fileprivate init() {}
   }
 
-  /// This `R.image` struct is generated, and contains static references to 9 images.
+  /// This `R.image` struct is generated, and contains static references to 22 images.
   struct image {
     /// Image `bag`.
     static let bag = Rswift.ImageResource(bundle: R.hostingBundle, name: "bag")
@@ -184,6 +288,32 @@ struct R: Rswift.Validatable {
     static let бутылка = Rswift.ImageResource(bundle: R.hostingBundle, name: "Бутылка")
     /// Image `Вода`.
     static let вода = Rswift.ImageResource(bundle: R.hostingBundle, name: "Вода")
+    /// Image `Э- 1024`.
+    static let э1024 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 1024")
+    /// Image `Э- 120`.
+    static let э120 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 120")
+    /// Image `Э- 152`.
+    static let э152 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 152")
+    /// Image `Э- 167`.
+    static let э167 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 167")
+    /// Image `Э- 180`.
+    static let э180 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 180")
+    /// Image `Э- 20`.
+    static let э20 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 20")
+    /// Image `Э- 29`.
+    static let э29 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 29")
+    /// Image `Э- 40`.
+    static let э40 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 40")
+    /// Image `Э- 58`.
+    static let э58 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 58")
+    /// Image `Э- 60`.
+    static let э60 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 60")
+    /// Image `Э- 76`.
+    static let э76 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 76")
+    /// Image `Э- 80`.
+    static let э80 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 80")
+    /// Image `Э- 87`.
+    static let э87 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Э- 87")
 
     #if os(iOS) || os(tvOS)
     /// `UIImage(named: "bag", bundle: ..., traitCollection: ...)`
@@ -245,6 +375,97 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "Вода", bundle: ..., traitCollection: ...)`
     static func вода(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.вода, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 1024", bundle: ..., traitCollection: ...)`
+    static func э1024(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э1024, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 120", bundle: ..., traitCollection: ...)`
+    static func э120(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э120, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 152", bundle: ..., traitCollection: ...)`
+    static func э152(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э152, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 167", bundle: ..., traitCollection: ...)`
+    static func э167(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э167, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 180", bundle: ..., traitCollection: ...)`
+    static func э180(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э180, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 20", bundle: ..., traitCollection: ...)`
+    static func э20(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э20, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 29", bundle: ..., traitCollection: ...)`
+    static func э29(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э29, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 40", bundle: ..., traitCollection: ...)`
+    static func э40(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э40, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 58", bundle: ..., traitCollection: ...)`
+    static func э58(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э58, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 60", bundle: ..., traitCollection: ...)`
+    static func э60(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э60, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 76", bundle: ..., traitCollection: ...)`
+    static func э76(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э76, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 80", bundle: ..., traitCollection: ...)`
+    static func э80(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э80, compatibleWith: traitCollection)
+    }
+    #endif
+
+    #if os(iOS) || os(tvOS)
+    /// `UIImage(named: "Э- 87", bundle: ..., traitCollection: ...)`
+    static func э87(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.э87, compatibleWith: traitCollection)
     }
     #endif
 

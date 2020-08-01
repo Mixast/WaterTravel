@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PriceTableViewCell" rowHeight="156" id="KGk-i7-Jjw" customClass="PriceTableViewCell" customModule="VideoReact" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PriceTableViewCell" rowHeight="156" id="KGk-i7-Jjw" customClass="PriceTableViewCell" customModule="Фласка" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="483" height="195"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -26,13 +26,14 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="10000" translatesAutoresizingMaskIntoConstraints="NO" id="86K-Vg-mGd" customClass="LineStepper" customModule="VideoReact" customModuleProvider="target">
-                                <rect key="frame" x="359" y="130" width="94" height="40"/>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="10000" translatesAutoresizingMaskIntoConstraints="NO" id="86K-Vg-mGd" customClass="LineStepper" customModule="Фласка" customModuleProvider="target">
+                                <rect key="frame" x="359" y="135" width="94" height="35"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stepper>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="Наименование" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bwl-23-De8">
                                 <rect key="frame" x="140" y="10" width="313" height="70"/>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -41,7 +42,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Tab-Wp-qRy"/>
                                 </constraints>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -60,7 +61,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" textContentType="tel"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Bwl-23-De8" secondAttribute="trailing" constant="10" id="0se-Rg-1Dp"/>
                             <constraint firstItem="DYl-Je-Ble" firstAttribute="leading" secondItem="DTB-le-G7M" secondAttribute="trailing" constant="5" id="1xp-Fx-P9I"/>
@@ -71,7 +72,7 @@
                             <constraint firstItem="DTB-le-G7M" firstAttribute="leading" secondItem="fEX-hZ-wwl" secondAttribute="trailing" constant="10" id="Fe1-jm-p8u"/>
                             <constraint firstItem="86K-Vg-mGd" firstAttribute="leading" secondItem="DYl-Je-Ble" secondAttribute="trailing" constant="5" id="Qfm-tW-GxU"/>
                             <constraint firstItem="fEX-hZ-wwl" firstAttribute="leading" secondItem="VSL-UI-GcX" secondAttribute="leading" constant="10" id="RKO-7Y-iHn"/>
-                            <constraint firstItem="86K-Vg-mGd" firstAttribute="top" secondItem="etM-cQ-Ee8" secondAttribute="bottom" constant="10" id="Ujy-Yd-8BV"/>
+                            <constraint firstItem="86K-Vg-mGd" firstAttribute="top" secondItem="etM-cQ-Ee8" secondAttribute="bottom" constant="15" id="Ujy-Yd-8BV"/>
                             <constraint firstItem="Bwl-23-De8" firstAttribute="top" secondItem="VSL-UI-GcX" secondAttribute="top" constant="10" id="WV5-A6-VqM"/>
                             <constraint firstAttribute="bottom" secondItem="DYl-Je-Ble" secondAttribute="bottom" constant="10" id="b53-yN-Ke5"/>
                             <constraint firstItem="fEX-hZ-wwl" firstAttribute="leading" secondItem="VSL-UI-GcX" secondAttribute="leading" constant="10" id="dEc-5p-noR"/>
@@ -95,6 +96,7 @@
                     <constraint firstItem="VSL-UI-GcX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="v43-AE-9pQ"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="backView" destination="VSL-UI-GcX" id="H1d-XB-iTh"/>

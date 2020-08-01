@@ -102,8 +102,17 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
 extension UITabBar {
     override open func sizeThatFits(_ size: CGSize) -> CGSize {
         super.sizeThatFits(size)
-        var sizeThatFits = super.sizeThatFits(size)
-        sizeThatFits.height = 50
-        return sizeThatFits
+        if DeviceType.iPhoneXsMax || DeviceType.iPhoneXs || DeviceType.iPhoneXr {
+            var sizeThatFits = super.sizeThatFits(size)
+            sizeThatFits.height = 90
+            
+            return sizeThatFits
+        } else {
+            var sizeThatFits = super.sizeThatFits(size)
+            sizeThatFits.height = 50
+            
+            return sizeThatFits
+        }
     }
 }
+

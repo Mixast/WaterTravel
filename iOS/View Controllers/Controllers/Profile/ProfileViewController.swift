@@ -74,6 +74,7 @@ class ProfileViewController: UIViewController {
     fileprivate func bindTableView() {
         self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.tableFooterView = UIView()
+        self.tableView.backgroundColor = .white
         self.tableView.register(UINib(nibName: "ProfileTableViewCell", bundle: nil), forCellReuseIdentifier: "ProfileTableViewCell")
     }
     

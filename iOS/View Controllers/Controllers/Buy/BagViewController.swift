@@ -60,6 +60,7 @@ class BagViewController: UIViewController {
         
         deliveryDate.date.accept(dateCurrent)
         deliveryDate.DateText.text = String(describing: dateCurrent.timestamp)
+        deliveryDate.DateText.textColor = .darkText
         self.viewModel.data = deliveryDate.date.value
         
         deliveryDate.date.asDriver()
